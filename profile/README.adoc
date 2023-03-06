@@ -1,2 +1,22 @@
 = Advocada Organization
 
+Advocada GitHub organization is the place where we organize the work of the Advocada project.
+The primary aim of the project to experiment with the Rust environment and to create an application that fits the enterprise application portfolio.
+
+Rust is a new and promising system programming language.
+The team here is mainly interested in enterprise application programming, mainly with Java background.
+We understand that the importance of the language Rust will grow in the coming years and try to experiment with application fitting the enterprise portfolio.
+
+The idea is that business agnostic infrastructure applications can be written in Rust.
+The microservice architecture makes it possible to integrate Rust services with existing Java or other services.
+At the same time applications that focus on a narrow functionality and need high performance can be ideal target for Rust development.
+
+Advocada is a project that aims to develop such services in Rust.
+The core Advocada service is the attribute based authorization microservice.
+
+The service is queried by the client applications to get access control tokens.
+Application may require signed access control tokens for their functions.
+The service gives the tokens to the client applications based on the stored state of authorization database.
+Using this token the client queries the application to perform the desired action.
+
+For more information read the README.adoc of the Advocada repository.
